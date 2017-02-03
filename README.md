@@ -24,7 +24,9 @@ You will need to create a Microsoft Translator Speech API service in Microsoft A
 1. Clone this repository to your development machine
 2. Change to the project directory and execute "npm install"
 3. Edit app.js and enter your Azure Cognitive Services Speech Translater Speech API Key from step 10 above.
-    var azureApiKey = '[Azure Cognitive Services Translator Speech API Key]';
+```
+var azureApiKey = '[Azure Cognitive Services Translator Speech API Key]';
+```
 3. Run by executing "node app.js"
 
 If you want to change the audio file, simply change the line 
